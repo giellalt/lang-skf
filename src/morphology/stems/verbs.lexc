@@ -3,6 +3,7 @@
 !! Verbs in the Sakirabiá language are actions.
 
 LEXICON Verbs
-verb    Persons   ;
+et+V:et    Persons "sleep"   ;
+ko+V:ko Persons "injest" ;
 
 ! vim: set ft=xfst-lexc:

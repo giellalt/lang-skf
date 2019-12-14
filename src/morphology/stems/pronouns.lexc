@@ -3,6 +3,14 @@
 !! Pronouns in the Sakirabiá language are references to things.
 
 LEXICON Pronouns
-pronoun    Cases   ;
+õt+Pron+Prs+Sg1:õt    #   ;
+ẽt+Pron+Prs+Sg2:ẽt    #   ;
+te+Pron+Prs+Sg3:te    #   ;
+sete+Pron+Prs+Sg3c:sete    #   ;
+õt+Pron+Prs+Pl12:kise    #   ;
+õt+Pron+Prs+Pl13:ose    #   ;
+ẽt+Pron+Prs+Pl2:eyat    #   ;
+te+Pron+Prs+Pl3:teyat    #   ;
+sete+Pron+Prs+Pl3c:seteyat    #   ;
 
 ! vim: set ft=xfst-lexc:

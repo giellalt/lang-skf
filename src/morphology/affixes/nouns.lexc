@@ -3,13 +3,28 @@
 !! The Sakirabiá language nouns inflect in cases.
 
 LEXICON Cases
-+N+sg+nom:0     #   ;
-+N+pl+nom:i     #   ;
-+N+sg+loc:as    #   ;
-+N+pl+loc:ias   #   ;
-+N+sg+acc:at    #   ;
-+N+pl+acc:iat   #   ;
++N+Sg+Nom:0     PX-MARKING   ;
+!+N+Pl+Nom:i     PX-MARKING   ;
++N+Sg+Abl:%^WG%>%{eV%}ri    PX-MARKING   ;
+! CHECKME +N+Sg+Asc:%^WG%>%{eØ%}se    PX-MARKING   ;
++N+Sg+Com:%^WG%>%{eØ%}sẽp    PX-MARKING   ;
++N+Sg+Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING   ;
++N+Sg+Loc:%^WG%>%{eØ%}se    PX-MARKING   ;
+!+N+Pl+Loc:ias   PX-MARKING   ;
+!+N+Sg+Acc:at    PX-MARKING   ;
+!+N+Pl+Acc:iat   PX-MARKING   ;
 #:0   Nouns   ;
+
+LEXICON PX-MARKING
+@R.PERS-NUM.SG1@+PxSg1:@R.PERS-NUM.SG1@ K ;
+@R.PERS-NUM.SG2@+PxSg2:@R.PERS-NUM.SG2@ K ;
+@R.PERS-NUM.SG3@+PxSg3:@R.PERS-NUM.SG3@ K ; 
+@R.PERS-NUM.SG3c@+PxSg3c:@R.PERS-NUM.SG3c@ K ;
+@R.PERS-NUM.PL12@+PxPl12:@R.PERS-NUM.PL12@ K ;
+@R.PERS-NUM.PL1@+PxPl1:@R.PERS-NUM.PL1@ K ;
+@R.PERS-NUM.PL2@+PxPl2:@R.PERS-NUM.PL2@ K ;
+@R.PERS-NUM.PL3@+PxPl3:@R.PERS-NUM.PL3@ K ; 
+@R.PERS-NUM.PL3c@+PxPl3c:@R.PERS-NUM.PL3c@ K ;
 
 ! vim: set ft=xfst-lexc:
 

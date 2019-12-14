@@ -39,21 +39,48 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 
 !! The nominals are inflected in the following Case and Number
  +Sg +Du +Pl
- +Ess +Nom +Gen +Acc +Ill +Loc +Com +Com/Sh
+
+ +Abl
+ +Asc
+ +Com
+ +Dat
+ +Loc
+ +Nom +Gen +Acc +Ess
+ +Ill
 
 !! The possession is marked as such:
- +PxSg1 +PxSg2 +PxSg3 +PxDu1 +PxDu2 +PxDu3 +PxPl1 +PxPl2 +PxPl3
++PxSg1
++PxSg2
++PxSg3
++PxSg3c
++PxPl1
++PxPl12
++PxPl2
++PxPl3
++PxPl3c
+
 !! The comparative forms are:
  +Comp +Superl
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
 !! Verb moods are:
- +Ind +Prs +Prt +Pot +Cond +Imprt
+ +Ind
+ +Prs
+ +Pst
+ +Fut
+
+ +Pot +Cond +Imprt
 !! Verb personal forms are:
- +Sg1 +Sg2 +Sg3 +Du1 +Du2 +Du3 +Pl1 +Pl2 +Pl3
+ +Sg1 +Sg2 +Sg3 +Sg3c
+ +Pl1 +Pl2 +Pl3
+ +Pl3c ! correferential to subject
 !! Other verb forms are
  +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+
+
+
+
 
 ! Abbreviated words are classified with:
  +ABBR +ACR 
@@ -101,10 +128,26 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
- {aä} {oö} {uü}
+!! Archiconsonants
+%{pb%}
+%{tr%}
+%{kg%}
+%{bmØ%}
+%{õo%}
+
+%{eV%}
+%{eØ%}
 
 !! And following triggers to control variation
  {front} {back}
+%^WG
+
+!! !Symbols that need to be escaped on the lower side (towards twolc):
+
+ »7     !! * »
+ «7     !! * «
+ %[%>%] !! * > (escaped with square brackets, to avoid collision with > as morpheme boundary)
+ %[%<%] !! * < (escaped with square brackets, to avoid collision with < as morpheme boundary)
 
 !! !!Flag diacritics
 !! We have manually optimised the structure of our lexicon using following
@@ -134,16 +177,55 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
  @U.Cap.Obl@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
  @U.Cap.Opt@        !!≈ | @CODE@ | Allowing downcasing of derived names: deatnulasj.
 
+@P.PERS-NUM.SG1@
+@P.PERS-NUM.SG2@
+@P.PERS-NUM.SG3@
+@P.PERS-NUM.SG3c@
+@P.PERS-NUM.PL1@
+@P.PERS-NUM.PL12@
+@P.PERS-NUM.PL2@
+@P.PERS-NUM.PL3@
+@P.PERS-NUM.PL3c@
+
+@R.PERS-NUM.SG1@
+@R.PERS-NUM.SG2@
+@R.PERS-NUM.SG3@
+@R.PERS-NUM.SG3c@
+@R.PERS-NUM.PL1@
+@R.PERS-NUM.PL12@
+@R.PERS-NUM.PL2@
+@R.PERS-NUM.PL3@
+@R.PERS-NUM.PL3c@
+
+
 LEXICON Root
 !! The word forms in Sakirabiá language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
-0   Nouns       ;
-0   Verbs       ;
-0   Adjectives  ;
-0   Pronouns    ;
-0   Numerals    ;
-0   Prefixes    ;
+   Nouns       ;
+   Verbs       ;
+   Adjectives  ;
+   Pronouns    ;
+   Numerals    ;
+   Prefixes    ;
     Punctuation ;
     Symbols     ;
+ PREFIXES_PERS-NUM ;
+
+LEXICON PREFIXES_PERS-NUM
+@P.PERS-NUM.SG1@:@P.PERS-NUM.SG1@o%< PREFIXES_NV ;
+@P.PERS-NUM.SG2@:@P.PERS-NUM.SG2@e%< PREFIXES_NV ;
+@P.PERS-NUM.SG3@:@P.PERS-NUM.SG3@i%< PREFIXES_NV ;! CHECK ME
+@P.PERS-NUM.SG3@:@P.PERS-NUM.SG3@s%< PREFIXES_NV ;
+@P.PERS-NUM.SG3c@:@P.PERS-NUM.SG3c@se%< PREFIXES_NV ;
+@P.PERS-NUM.PL12@:@P.PERS-NUM.PL12@ki%< PREFIXES_NV ;
+@P.PERS-NUM.PL1@:@P.PERS-NUM.PL1@ose%< PREFIXES_NV ;
+@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eyat%< PREFIXES_NV ;
+@P.PERS-NUM.PL3@:@P.PERS-NUM.PL3@teyat%< PREFIXES_NV ;
+@P.PERS-NUM.PL3c@:@P.PERS-NUM.PL3c@seteyat%< PREFIXES_NV ;
+
+LEXICON PREFIXES_NV
+Nouns ;
+Verbs ;
+
 
 ! vim: set ft=xfst-lexc:

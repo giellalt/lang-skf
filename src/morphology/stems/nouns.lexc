@@ -3,6 +3,11 @@
 !! Nouns in the Sakirabiá language are things.
 
 LEXICON Nouns
-noun    Cases   ;
+etu+N:etu  Cases "basket" ;
+met+N:me%{tr%} Cases "husband" ;
+opo+N:opo Cases "hand" ;
+pisa+N:pisa    Cases  "liver" ;
+tak+N:ta%{kg%} Cases "daughter" ;
+tek+N:te%{kg%}    Cases  "house" ;
 
 ! vim: set ft=xfst-lexc:
