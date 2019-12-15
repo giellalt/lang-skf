@@ -11,6 +11,8 @@ Alphabet
  Ã Ẽ Ĩ Õ Ũ
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ý Ç
 
+ ' ! the apostrophe is a glotal stop marker
+
 !! Archiconsonants
 %{pb%}:p !
 %{pb%}:b
@@ -63,7 +65,7 @@ Rules
 !!
 
 "Weaken stem-final stop when followed by morpheme on-set vowel"
-Cx:Cy <=> _ %^WG:0 %> ;
+Cx:Cy <=> _ %^WG:0 [ %> | %< ];
      where Cx in (%{pb%} %{tr%} %{kg%})
            Cy in (   b      r      g ) matched ;
 

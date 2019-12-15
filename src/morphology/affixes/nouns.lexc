@@ -3,17 +3,17 @@
 !! The Sakirabiá language nouns inflect in cases.
 
 LEXICON Cases
-+N+Sg+Nom:0     PX-MARKING   ;
-!+N+Pl+Nom:i     PX-MARKING   ;
-+N+Sg+Abl:%^WG%>%{eV%}ri    PX-MARKING   ;
-! CHECKME +N+Sg+Asc:%^WG%>%{eØ%}se    PX-MARKING   ;
-+N+Sg+Com:%^WG%>%{eØ%}sẽp    PX-MARKING   ;
-+N+Sg+Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING   ;
-+N+Sg+Loc:%^WG%>%{eØ%}se    PX-MARKING   ;
-!+N+Pl+Loc:ias   PX-MARKING   ;
-!+N+Sg+Acc:at    PX-MARKING   ;
-!+N+Pl+Acc:iat   PX-MARKING   ;
-#:0   Nouns   ;
++Nom:     PX-MARKING_OR_NOT   ;
++Abl:%^WG%>%{eV%}ri    PX-MARKING_OR_NOT   ;
++Com:%^WG%>%{eØ%}sẽp    PX-MARKING_OR_NOT   ;
++Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING_OR_NOT   ;
++Loc:%^WG%>%{eØ%}se    PX-MARKING_OR_NOT   ;
++Coll+Nom:%^WG%>iat    PX-MARKING_OR_NOT   ;
+!#:0   Nouns   ;
+
+LEXICON PX-MARKING_OR_NOT
+@D.PERS-NUM@ K ;
+ PX-MARKING ;
 
 LEXICON PX-MARKING
 @R.PERS-NUM.SG1@+PxSg1:@R.PERS-NUM.SG1@ K ;

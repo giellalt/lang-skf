@@ -197,9 +197,10 @@ Multichar_Symbols  !!≈ !!!Definitions for @CODE@
 @R.PERS-NUM.PL3@
 @R.PERS-NUM.PL3c@
 
+@D.PERS-NUM@
 
 LEXICON Root
-!! The word forms in Sakirabiá language start from the lexeme roots of basic
+!! The word forms in the Sakurabiat language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns       ;
    Verbs       ;
@@ -219,13 +220,16 @@ LEXICON PREFIXES_PERS-NUM
 @P.PERS-NUM.SG3c@:@P.PERS-NUM.SG3c@se%< PREFIXES_NV ;
 @P.PERS-NUM.PL12@:@P.PERS-NUM.PL12@ki%< PREFIXES_NV ;
 @P.PERS-NUM.PL1@:@P.PERS-NUM.PL1@ose%< PREFIXES_NV ;
-@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eyat%< PREFIXES_NV ;
-@P.PERS-NUM.PL3@:@P.PERS-NUM.PL3@teyat%< PREFIXES_NV ;
-@P.PERS-NUM.PL3c@:@P.PERS-NUM.PL3c@seteyat%< PREFIXES_NV ;
+@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eya%{tr%}%^WG%< PREFIXES_NV ;
+@P.PERS-NUM.PL3@:@P.PERS-NUM.PL3@teya%{tr%}%^WG%< PREFIXES_NV ;
+@P.PERS-NUM.PL3c@:@P.PERS-NUM.PL3c@seteya%{tr%}%^WG%< PREFIXES_NV ;
+Asc+:ese%<    Verbs ;! CHECKME 
 
 LEXICON PREFIXES_NV
 Nouns ;
 Verbs ;
 
+LEXICON K
+# ;
 
 ! vim: set ft=xfst-lexc:

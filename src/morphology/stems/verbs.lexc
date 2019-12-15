@@ -3,7 +3,8 @@
 !! Verbs in the Sakirabiá language are actions.
 
 LEXICON Verbs
-et+V:et    Persons "sleep"   ;
-ko+V:ko Persons "injest" ;
+et+V:et TAM_ "sleep"   ;
+i'at+V:i'a%{tr%} TAM_ "catch something/pegar algo" ;
+ko+V:ko TAM_ "injest: eat, drink, smoke, copulate" ;
 
 ! vim: set ft=xfst-lexc:

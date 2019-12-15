@@ -2,8 +2,21 @@
 !  ---------------
 !! The Sakirabiá language verbs inflect in persons.
 
+LEXICON TAM_
++Ind+Pst:%^WG%>at Persons ;
++Ind+Prs: Persons ;
+
 LEXICON Persons
-@R.PERS-NUM.SG1@+Ind+Pst+Sg1:@R.PERS-NUM.SG1@%^WG%>at # ;
+@R.PERS-NUM.SG1@+Sg1:@R.PERS-NUM.SG1@ K ;
+@R.PERS-NUM.SG2@+Sg2:@R.PERS-NUM.SG2@ K ;
+@R.PERS-NUM.SG3@+Sg3:@R.PERS-NUM.SG3@ K ;
+@R.PERS-NUM.SG3c@+Sg3c:@R.PERS-NUM.SG3c@ K ;
+
+@R.PERS-NUM.PL1@+Pl1:@R.PERS-NUM.PL1@ K ;
+@R.PERS-NUM.PL12@+Pl12:@R.PERS-NUM.PL12@ K ;
+@R.PERS-NUM.PL2@+Pl2:@R.PERS-NUM.PL2@ K ;
+@R.PERS-NUM.PL3@+Pl3:@R.PERS-NUM.PL3@ K ;
+@R.PERS-NUM.PL3c@+Pl3c:@R.PERS-NUM.PL3c@ K ;
 
 !#:0   Nouns   ;
 
