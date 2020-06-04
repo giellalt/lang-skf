@@ -1,0 +1,9 @@
+name = "Sakirabiá"
+version = "0.1.0"
+
+[macos]
+system_pkg_id = "no.divvun.MacDivvun.skf"
+
+[windows]
+system_product_code = "70614A0D-973A-4119-B4E9-70D40CC342A7"
+msoffice_product_code = "E3BD8A83-5A60-4376-A3CB-122AB59C622A"
