@@ -5,5 +5,8 @@ version = "0.1.1"
 system_pkg_id = "no.divvun.MacDivvun.skf"
 
 [windows]
-system_product_code = "70614A0D-973A-4119-B4E9-70D40CC342A7"
-msoffice_product_code = "E3BD8A83-5A60-4376-A3CB-122AB59C622A"
+system_product_code = "{09750947-FD94-4D10-B36C-6E4DA40EC103}_is1"
+legacy_product_codes = [
+    { value = "70614A0D-973A-4119-B4E9-70D40CC342A7", kind = "nsis" },
+    { value = "E3BD8A83-5A60-4376-A3CB-122AB59C622A", kind = "nsis" }
+]
