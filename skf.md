@@ -1,3 +1,69 @@
+Noun inflection
+The Sakirabiá language nouns inflect in cases.
+
+
+
+
+
+Proper noun inflection
+The Sakirabiá language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Prefixes
+Prefixes in the Sakirabiá language are bound to beginning of other words.
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Adjective inflection
+The Sakirabiá language adjectives compare.
+
+
+
+Verb inflection
+The Sakirabiá language verbs inflect in persons.
+
+
+
+
+
+
+=================================== !
+The Sakirabiá morphophonological/twolc rules file !
+=================================== !
+
+
+
+
+Archiconsonants
+
+
+
+
+
+
+
+
+
+
+
+
+
+tek+N+Sg+Ill+PxSg1
+* *o%<te%{kg%}%^WG%>%{bmØ%}%{õo%}*
+* *o%<teg0%>0õ*
+
+
+
+
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Sakirabiá LANGUAGE.
 
@@ -98,6 +164,86 @@ word classes, or optionally from prefixes:
 
 
 
+
+Nouns
+Nouns in the Sakirabiá language are things.
+
+
+
+
+Pronouns
+Pronouns in the Sakirabiá language are references to things.
+
+
+Adjectives
+Adjectives in the Sakirabiá language describe things.
+they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
+
+
+
+
+
+Verbs
+Verbs in the Sakirabiá language are actions.
+
+
+Numerals
+Numerals in the Sakirabiá language are numbers.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+% komma% :,      Root ;
+% tjuohkkis% :%. Root ;
+% kolon% :%:     Root ;
+% sárggis% :%-   Root ; 
+% násti% :%*     Root ; 
 
 
 
