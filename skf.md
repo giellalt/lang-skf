@@ -1,39 +1,27 @@
-Noun inflection
-The Sakirabiá language nouns inflect in cases.
+Nouns
+Nouns in the Sakirabiá language are things.
+
+
+
+
+Numerals
+Numerals in the Sakirabiá language are numbers.
+
+
+Verbs
+Verbs in the Sakirabiá language are actions.
+
+
+Adjectives
+Adjectives in the Sakirabiá language describe things.
+they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
 
 
 
 
 
-Proper noun inflection
-The Sakirabiá language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-Prefixes
-Prefixes in the Sakirabiá language are bound to beginning of other words.
-
-
-
-
-# Symbol affixes
-
-
-
-
-
-Adjective inflection
-The Sakirabiá language adjectives compare.
-
-
-
-Verb inflection
-The Sakirabiá language verbs inflect in persons.
-
-
-
-
+Pronouns
+Pronouns in the Sakirabiá language are references to things.
 
 
 =================================== !
@@ -61,6 +49,44 @@ tek+N+Sg+Ill+PxSg1
 * *o%<te%{kg%}%^WG%>%{bmØ%}%{õo%}*
 * *o%<teg0%>0õ*
 
+
+
+
+
+# Symbol affixes
+
+
+
+
+
+Noun inflection
+The Sakirabiá language nouns inflect in cases.
+
+
+
+
+
+Proper noun inflection
+The Sakirabiá language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Verb inflection
+The Sakirabiá language verbs inflect in persons.
+
+
+
+
+
+
+Prefixes
+Prefixes in the Sakirabiá language are bound to beginning of other words.
+
+
+
+Adjective inflection
+The Sakirabiá language adjectives compare.
 
 
 
@@ -165,30 +191,20 @@ word classes, or optionally from prefixes:
 
 
 
-Nouns
-Nouns in the Sakirabiá language are things.
 
 
 
+We describe here how abbreviations are in Sakirabiá are read out, e.g.
+for text-to-speech systems.
 
-Pronouns
-Pronouns in the Sakirabiá language are references to things.
+For example:
 
-
-Adjectives
-Adjectives in the Sakirabiá language describe things.
-they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
-
-
-
-
-
-Verbs
-Verbs in the Sakirabiá language are actions.
-
-
-Numerals
-Numerals in the Sakirabiá language are numbers.
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
 
 
 
@@ -244,20 +260,4 @@ Numerals in the Sakirabiá language are numbers.
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
-
-
-
-
-We describe here how abbreviations are in Sakirabiá are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
 
