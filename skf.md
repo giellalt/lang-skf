@@ -605,30 +605,42 @@ These were the set types.
 
 
 
-Nouns
-Nouns in the Sakirabiá language are things.
-
-
-
-
-Numerals
-Numerals in the Sakirabiá language are numbers.
-
-
-Verbs
-Verbs in the Sakirabiá language are actions.
-
-
-Adjectives
-Adjectives in the Sakirabiá language describe things.
-they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
+Verb inflection
+The Sakirabiá language verbs inflect in persons.
 
 
 
 
 
-Pronouns
-Pronouns in the Sakirabiá language are references to things.
+
+Proper noun inflection
+The Sakirabiá language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+Adjective inflection
+The Sakirabiá language adjectives compare.
+
+
+
+Prefixes
+Prefixes in the Sakirabiá language are bound to beginning of other words.
+
+
+
+Noun inflection
+The Sakirabiá language nouns inflect in cases.
+
+
+
+
+
+
+# Symbol affixes
+
+
+
 
 
 =================================== !
@@ -659,41 +671,29 @@ tek+N+Sg+Ill+PxSg1
 
 
 
-
-# Symbol affixes
-
-
+Verbs
+Verbs in the Sakirabiá language are actions.
 
 
-
-Noun inflection
-The Sakirabiá language nouns inflect in cases.
-
+Pronouns
+Pronouns in the Sakirabiá language are references to things.
 
 
+Numerals
+Numerals in the Sakirabiá language are numbers.
 
 
-Proper noun inflection
-The Sakirabiá language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-Verb inflection
-The Sakirabiá language verbs inflect in persons.
+Adjectives
+Adjectives in the Sakirabiá language describe things.
+they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
 
 
 
 
 
+Nouns
+Nouns in the Sakirabiá language are things.
 
-Prefixes
-Prefixes in the Sakirabiá language are bound to beginning of other words.
-
-
-
-Adjective inflection
-The Sakirabiá language adjectives compare.
 
 
 
@@ -801,22 +801,6 @@ word classes, or optionally from prefixes:
 
 
 
-We describe here how abbreviations are in Sakirabiá are read out, e.g.
-for text-to-speech systems.
-
-For example:
-
- * s.:syntynyt # ;  
- * os.:omaa% sukua # ;  
- * v.:vuosi # ;  
- * v.:vuonna # ;  
- * esim.:esimerkki # ; 
- * esim.:esimerkiksi # ; 
-
-
-
-
-
 
 
 
@@ -867,6 +851,22 @@ For example:
 % kolon% :%:     Root ;
 % sárggis% :%-   Root ; 
 % násti% :%*     Root ; 
+
+
+
+
+We describe here how abbreviations are in Sakirabiá are read out, e.g.
+for text-to-speech systems.
+
+For example:
+
+ * s.:syntynyt # ;  
+ * os.:omaa% sukua # ;  
+ * v.:vuosi # ;  
+ * v.:vuonna # ;  
+ * esim.:esimerkki # ; 
+ * esim.:esimerkiksi # ; 
+
 
 
       [ L A N G U A G E ]  G R A M M A R   C H E C K E R
