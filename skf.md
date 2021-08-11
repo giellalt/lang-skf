@@ -606,7 +606,38 @@ These were the set types.
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-skf/blob/main/../src/cg3/functions.cg3)</small>
+<small>This (part of) documentation was generated from [../src/cg3/functions.cg3](http://github.com/giellalt/lang-skf/blob/main/../src/cg3/functions.cg3)</small>Verbs
+Verbs in the Sakirabiá language are actions.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
+Numerals in the Sakirabiá language are numbers.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/numerals.lexc)</small>Pronouns
+Pronouns in the Sakirabiá language are references to things.
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/pronouns.lexc)</small>Adjectives
+Adjectives in the Sakirabiá language describe things.
+they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/adjectives.lexc)</small>Nouns
+Nouns in the Sakirabiá language are things.
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/nouns.lexc)</small>
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Sakirabiá LANGUAGE.
 
 
@@ -708,82 +739,7 @@ word classes, or optionally from prefixes:
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/root.lexc)</small>Proper noun inflection
-The Sakirabiá language proper nouns inflect in the same cases as regular
-nouns, but with a colon (':') as separator.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/propernouns.lexc)</small>Prefixes
-Prefixes in the Sakirabiá language are bound to beginning of other words.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/prefixes.lexc)</small>Noun inflection
-The Sakirabiá language nouns inflect in cases.
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/nouns.lexc)</small>
-# Symbol affixes
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/symbols.lexc)</small>Adjective inflection
-The Sakirabiá language adjectives compare.
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/adjectives.lexc)</small>Verb inflection
-The Sakirabiá language verbs inflect in persons.
-
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/verbs.lexc)</small>Pronouns
-Pronouns in the Sakirabiá language are references to things.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/pronouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/pronouns.lexc)</small>Nouns
-Nouns in the Sakirabiá language are things.
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/nouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/nouns.lexc)</small>Adjectives
-Adjectives in the Sakirabiá language describe things.
-they follow the head of the NP and take the oblique markers we call case (perhaps elsewere adpositions)
-
-
-
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/adjectives.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/adjectives.lexc)</small>Verbs
-Verbs in the Sakirabiá language are actions.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/verbs.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/verbs.lexc)</small>Numerals
-Numerals in the Sakirabiá language are numbers.
-
-
-* * *
-<small>This (part of) documentation was generated from [../src/fst/stems/numerals.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/stems/numerals.lexc)</small>=================================== !
+<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/root.lexc)</small>=================================== !
 The Sakirabiá morphophonological/twolc rules file !
 =================================== !
 
@@ -812,7 +768,51 @@ tek+N+Sg+Ill+PxSg1
 
 
 * * *
-<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/phonology.twolc)</small>
+<small>This (part of) documentation was generated from [../src/fst/phonology.twolc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/phonology.twolc)</small>Verb inflection
+The Sakirabiá language verbs inflect in persons.
+
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/verbs.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/verbs.lexc)</small>
+# Symbol affixes
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/symbols.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/symbols.lexc)</small>Proper noun inflection
+The Sakirabiá language proper nouns inflect in the same cases as regular
+nouns, but with a colon (':') as separator.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/propernouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/propernouns.lexc)</small>Prefixes
+Prefixes in the Sakirabiá language are bound to beginning of other words.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/prefixes.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/prefixes.lexc)</small>Adjective inflection
+The Sakirabiá language adjectives compare.
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/adjectives.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/adjectives.lexc)</small>Noun inflection
+The Sakirabiá language nouns inflect in cases.
+
+
+
+
+
+* * *
+<small>This (part of) documentation was generated from [../src/fst/affixes/nouns.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/affixes/nouns.lexc)</small>
 
 
 
