@@ -5,7 +5,9 @@
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/issues)
 [![Build status](https://github.com/giellalt/lang-skf/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-skf/actions)
 
-This page documents the work on the **Sakirabiá language model**. 
+This page documents the work on the **Sakirabiá language model**. it contains some 100 noun and word
+stems and the basic morphology.
+
 
 # Project documentation
 
