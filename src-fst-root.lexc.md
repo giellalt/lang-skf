@@ -1,7 +1,6 @@
 
 INTRODUCTION TO MORPHOLOGICAL ANALYSER OF Sakirabiá LANGUAGE.
 
-
 # Definitions for Multichar_Symbols
 
 ## Analysis symbols
@@ -17,7 +16,6 @@ The Usage extents are marked using following tags:
 
 The nominals are inflected in the following Case and Number
 
-
 The possession is marked as such:
 
 The comparative forms are:
@@ -27,10 +25,6 @@ Verb moods are:
 Verb personal forms are:
 Other verb forms are
 
-
-
-
-
 * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
@@ -39,19 +33,15 @@ Non-dictionary words can be recognised with:
 
 Question and Focus particles:
 
-
 Semantics are classified with
-
 
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
-
 
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
 Archiconsonants
-
 
 And following triggers to control variation
 
@@ -90,14 +80,12 @@ given the proper use of these flags.
 |  @U.Cap.Obl@ | Allowing downcasing of derived names: deatnulasj.
 |  @U.Cap.Opt@ | Allowing downcasing of derived names: deatnulasj.
 
-
-
-
 The word forms in the Sakurabiat language start from the lexeme roots of basic
 word classes, or optionally from prefixes:
 
-
-
-
 * * *
-<small>This (part of) documentation was generated from [../src/fst/root.lexc](http://github.com/giellalt/lang-skf/blob/main/../src/fst/root.lexc)</small>
+
+<small>This (part of) documentation was generated from [src/fst/root.lexc](https://github.com/giellalt/lang-skf/blob/main/src/fst/root.lexc)</small>
+
+---
+
