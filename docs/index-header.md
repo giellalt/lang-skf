@@ -1,7 +1,7 @@
 # Sakirabiá documentation
 
 [![Maturity: Experiment](https://img.shields.io/badge/Maturity-Experiment-black.svg)](https://giellalt.github.io/MaturityClassification.html)
-[![License](https://img.shields.io/github/license/giellalt/lang-skf)](https://raw.githubusercontent.com/giellalt/lang-skf/main/LICENSE)
+[![License](https://img.shields.io/github/license/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/issues)
 [![Build status](https://github.com/giellalt/lang-skf/workflows/Speller%20CI+CD/badge.svg)](https://github.com/giellalt/lang-skf/actions)
 
