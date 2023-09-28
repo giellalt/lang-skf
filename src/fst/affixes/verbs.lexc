@@ -1,9 +1,15 @@
 !! Verb inflection
 !  ---------------
-!! The Sakirabiá language verbs inflect in persons.
+!! The Sakirabiá language verbs inflect in person and tense.
 
 LEXICON TAM_
+!perhaps add Der/.. here
+!+Nmlz+Vblz:%>pit%>na Ask what kind of nmlz and vblz these are
+!+Nmlz:%>a%{pb%}
+
 +Ind+Pst:%^WG%>at Persons ;
++Ind+Pst+Imprf:%^WG%>a Persons ;! Thematic Vowel
++Ind+Pst+Imprf+Rep:%^WG%>a%>ra Persons ;! Thematic Vowel +Rep
 +Ind+Prs: Persons ;
 
 LEXICON Persons
