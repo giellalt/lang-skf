@@ -29,9 +29,19 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! The parts-of-speech are:
  +N +A +Adv +V                                 !!≈
  +Pron +CS +CC +Adp +Po +Pr +Interj +Pcle +Num !!≈
-
+ 
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
+
+ +Rep ! repetitive
+ +Nmlz ! nominalizer THIS NEEDS documentation
+ +Vblz ! verbalizer THIS NEEDS	documentation
+ +Coll
+ +Cop +Aux
+!pe=kaat Obl+Dem
+!a-jẽ=eri Q+Dem.Prox=Abl
+!ke  +Dem
+!kaat +Dem
 
 !! The Usage extents are marked using following tags:
  +Err/Orth   
@@ -53,11 +63,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 +PxSg2
 +PxSg3
 +PxSg3c
-+PxPl1
-+PxPl12
++PxPl1Excl !inclusive
++PxPl1Incl !exclusive
 +PxPl2
-+PxPl3
-+PxPl3c
++PxPl3 ! fourth person
++PxPl3c ! correlating person
+
++Relat ! for relator nouns: pi
 
 !! The comparative forms are:
  +Comp +Superl
@@ -68,15 +80,21 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +Ind
  +Prs
  +Pst
- +Fut
-
+ +Fut	! future
+ +ImFut ! immediate future
+ 
  +Pot +Cond +Imprt
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Sg3c
  +Pl1 +Pl2 +Pl3
  +Pl3c ! correferential to subject
 !! Other verb forms are
- +Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
+ +Prf	 ! perfective aspect
+ +Imprf ! imperfective aspect 
+ +Quo
+ +Foc
+
++Inf +Ger +ConNeg +ConNegII +Neg +ImprtII +PrsPrc +PrfPrc +Sup +VGen +VAbess
 
 
 
@@ -205,6 +223,7 @@ LEXICON Root
    Nouns       ;
    Verbs       ;
    Adjectives  ;
+   Adverbs     ;
    Pronouns    ;
    Numerals    ;
    Prefixes    ;
@@ -230,6 +249,7 @@ Nouns ;
 Verbs ;
 
 LEXICON K
++Clt:%>ʼẽp # ; !emphatic
 # ;
 
 ! vim: set ft=xfst-lexc:
