@@ -3,8 +3,29 @@
 !! Verbs in the Sakirabiá language are actions.
 
 LEXICON Verbs
-et+V:et TAM_ "sleep"   ;
-i'at+V:i'a%{tr%} TAM_ "catch something/pegar algo" ;
-ko+V:ko TAM_ "injest: eat, drink, smoke, copulate" ;
+ne+V+Aux+Cop:ne # ;
+naat+V+Aux+Cop:naat # ;
+pa+V+Aux+Fut:pa # ;
+kot+V+Aux+ImFut:kot # ;
+kaap+V+Aux+Quo:kaap # ;
+kop+V+Aux:kop # "aux.mov" ;
+to+V:to TAM_ "aux.lie" ;
+
+
+ʼat+v1+V:ʼa%{tr%} TAM_ "get/" ;
+ʼat+v2+V:a%{tr%} TAM_ "get/" ;
+et+V:e%{tr%} TAM_ "sleep"   ;
+iʼat+V:iʼa%{tr%} TAM_ "catch something/pegar algo" ;
+ka+V:ka TAM_ "move/" ;
+kerep+V:kere%{pb%} TAM_ "enter/" ;
+ko+V:ko TAM_ "ingest: eat, drink, smoke, copulate" ;
+kõjẽ+V:kõjẽ TAM_ "sit/" ;
+ot+V:o%{tr%} TAM_ "leave/" ;
+õp+V:õ%{pb%} TAM_ "give/dar" ;
+porẽsopek+V:porẽsope%{kg%} TAM_ "ask/perguntar" ;
+pɨbot+V:pɨbo%{tr%} TAM_ "arrive/chegar" ;
+set+V:se%{tr%} TAM_ "" ;
+so+V:so TAM_ "see" ;
+
 
 ! vim: set ft=xfst-lexc:
