@@ -1,5 +1,5 @@
 Verb inflection
-The Sakirabiá language verbs inflect in persons.
+The Sakirabiá language verbs inflect in person and tense.
 
 * * *
 
