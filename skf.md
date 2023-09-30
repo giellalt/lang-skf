@@ -281,6 +281,15 @@ Semantics are classified with
 Derivations are classified under the morphophonetic form of the suffix, the
 source and target part-of-speech.
 
+### Tags distinguishing different versions of the same lemma (before POS)
+* +v1
+* +v2
+* +v3
+* +v4
+* +v5
+* +v6
+* +v7
+
 Morphophonology
 To represent phonologic variations in word forms we use the following
 symbols in the lexicon files:
