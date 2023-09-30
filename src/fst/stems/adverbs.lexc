@@ -5,8 +5,9 @@
 
 LEXICON Adverbs
 ajẽeri+Adv+Abl:ajẽeri # "where" ;
+arẽp+Adv:arẽp # "then" ;
 jãõbõ+Adv+All:jãõbõ # "thither, to there/" ;
-ebõ+Adv:ebõ # "/realmente" ;
+ebõ+Adv:ebõ # "really/realmente" ;
 kẽrã+Adv:kẽrã # "(nonassertive)" ;
 ma+Adv+Temp:ma # "when/" ;
 neara+Adv:neara # "again/" ;
@@ -15,8 +16,9 @@ pɨ+Adv:pɨ # "lying" ;
 poget+Adv:poget # "standing/" ;
 poret+Adv+Temp:poret # "now/agora" ;
 te+Adv+Foc:te # "(focus marker)" ;
+tẽet+Adv:tẽet # "only/" ;
 
 atɨ+Interj:atɨ # "" ;
-
+tɨɨ+Interj:tɨɨ # "" ;
 
 ! vim: set ft=xfst-lexc:

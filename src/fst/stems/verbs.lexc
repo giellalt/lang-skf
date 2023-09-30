@@ -3,29 +3,39 @@
 !! Verbs in the Sakirabiá language are actions.
 
 LEXICON Verbs
-ne+V+Aux+Cop:ne # ;
 naat+V+Aux+Cop:naat # ;
+ne+V+Aux+Cop:ne # ;
+nop+V+Aux+Neg:nop # ;
 pa+V+Aux+Fut:pa # ;
 kot+V+Aux+ImFut:kot # ;
 kaap+V+Aux+Quo:kaap # ;
+eba+V+Aux+Evid:eba # ;
 kop+V+Aux:kop # "aux.mov" ;
 to+V:to TAM_ "aux.lie" ;
 
 
 ʼat+v1+V:ʼa%{tr%} TAM_ "get/" ;
 ʼat+v2+V:a%{tr%} TAM_ "get/" ;
+erek+V:ere%{kg%} TAM_ "speak" ;
 et+V:e%{tr%} TAM_ "sleep"   ;
 iʼat+V:iʼa%{tr%} TAM_ "catch something/pegar algo" ;
 ka+V:ka TAM_ "move/" ;
 kerep+V:kere%{pb%} TAM_ "enter/" ;
 ko+V:ko TAM_ "ingest: eat, drink, smoke, copulate" ;
 kõjẽ+V:kõjẽ TAM_ "sit/" ;
+kwakso+V:kwakso TAM_ "hear/" ;
+ma+V:ma TAM_ "make/" ;
+maj+V:maj TAM_ "tell/" ;
 ot+V:o%{tr%} TAM_ "leave/" ;
 õp+V:õ%{pb%} TAM_ "give/dar" ;
-porẽsopek+V:porẽsope%{kg%} TAM_ "ask/perguntar" ;
+pek+V:pe%{kg%} TAM_ "call/chamar" ;
+pia+V:pia TAM_ "wait/" ;
+piora+V:piora TAM_ "dig/" ;
 pɨbot+V:pɨbo%{tr%} TAM_ "arrive/chegar" ;
+porẽsopek+V:porẽsope%{kg%} TAM_ "ask/perguntar" ;
 set+V:se%{tr%} TAM_ "" ;
 so+V:so TAM_ "see" ;
+toorekwa+V:toorekwa TAM_ "laugh/" ;
 
 
 ! vim: set ft=xfst-lexc:

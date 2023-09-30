@@ -7,7 +7,7 @@ LEXICON Pronouns
 ẽt+Pron+Prs+Sg2:ẽ%{tr%}  Cases "you(sg)/" ;
 te+Pron+Prs+Sg3:te    Cases   ;
 sete+Pron+Prs+Sg3c:sete    Cases   ;
-õt+Pron+Prs+Pl12:kise    Cases   ;
+õt+Pron+Prs+Pl1Incl:kise    Cases   ;
 õt+Pron+Prs+Pl13:ose    Cases   ;
 ẽt+Pron+Prs+Pl2:eyat    Cases   ;
 te+Pron+Prs+Pl3:teyat    Cases   ;
