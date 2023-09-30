@@ -32,12 +32,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  
 !! The parts of speech are further split up into:
  +Prop +Pers +Dem +Interr +Refl +Recipr +Rel +Indef
-
+ +Temp 
  +Rep ! repetitive
  +Nmlz ! nominalizer THIS NEEDS documentation
  +Vblz ! verbalizer THIS NEEDS	documentation
  +Coll
  +Cop +Aux
+ +Evid ! evidentiality THIS NEEDS  documentation
 !pe=kaat Obl+Dem
 !a-jẽ=eri Q+Dem.Prox=Abl
 !ke  +Dem
@@ -141,13 +142,21 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
  +V→N +V→V +V→A
  +Der/xxx
 
+!! ### Tags distinguishing different versions of the same lemma (before POS)
++v1   !!≈ * @CODE@
++v2   !!≈ * @CODE@
++v3   !!≈ * @CODE@
++v4   !!≈ * @CODE@
++v5   !!≈ * @CODE@
++v6   !!≈ * @CODE@
++v7   !!≈ * @CODE@
 
 !! Morphophonology
 !  ---------------
 !! To represent phonologic variations in word forms we use the following
 !! symbols in the lexicon files:
 !! Archiconsonants
-%{pb%}
+%{pbØ%}
 %{tr%}
 %{kg%}
 %{bmØ%}
@@ -226,7 +235,7 @@ LEXICON Root
    Adverbs     ;
    Pronouns    ;
    Numerals    ;
-   Prefixes    ;
+!   Prefixes    ;
     Punctuation ;
     Symbols     ;
  PREFIXES_PERS-NUM ;
@@ -239,9 +248,13 @@ LEXICON PREFIXES_PERS-NUM
 @P.PERS-NUM.SG3c@:@P.PERS-NUM.SG3c@se%< PREFIXES_NV ;
 @P.PERS-NUM.PL12@:@P.PERS-NUM.PL12@ki%< PREFIXES_NV ;
 @P.PERS-NUM.PL1@:@P.PERS-NUM.PL1@ose%< PREFIXES_NV ;
-@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eya%{tr%}%^WG%< PREFIXES_NV ;
+@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eya%{tr%}%^WG%< PREFIXES_NV ;!CHECKME 20230929
 @P.PERS-NUM.PL3@:@P.PERS-NUM.PL3@teya%{tr%}%^WG%< PREFIXES_NV ;
 @P.PERS-NUM.PL3c@:@P.PERS-NUM.PL3c@seteya%{tr%}%^WG%< PREFIXES_NV ;
+
+@P.PERS-NUM.PL2@:@P.PERS-NUM.PL2@eja%{tr%}%^WG%< PREFIXES_NV ;!CHECKME
+@P.PERS-NUM.PL3@:@P.PERS-NUM.PL3@teja%{tr%}%^WG%< PREFIXES_NV ;
+@P.PERS-NUM.PL3c@:@P.PERS-NUM.PL3c@seteja%{tr%}%^WG%< PREFIXES_NV ;
 Asc+:ese%<    Verbs ;! CHECKME 
 
 LEXICON PREFIXES_NV
@@ -250,6 +263,7 @@ Verbs ;
 
 LEXICON K
 +Clt:%>ʼẽp # ; !emphatic
++Clt:%>õn # ; !emphatic
 # ;
 
 ! vim: set ft=xfst-lexc:
