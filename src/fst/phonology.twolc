@@ -12,10 +12,11 @@ Alphabet
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ý Ç
 
  ' ! the apostrophe is a glotal stop marker
+ ʼ ! the Modifier letter apostrophe (U+02BC) is a glotal stop marker
 
 !! Archiconsonants
-%{pb%}:p !
-%{pb%}:b
+%{pbØ%}:p !
+%{pbØ%}:b
 %{tr%}:t
 %{tr%}:r
 %{kg%}:k
@@ -52,7 +53,8 @@ Sets
 
  Vow = a e i o u y ã ẽ ĩ õ ũ ; 
  Cns = b c d f g h j k l m n p q r s t v w x z ;
- 
+ VowInit = %{eV%} %{eØ%} ;
+
 Rules
 
 !"Vowel lengthening at morpheme boundary"
@@ -64,14 +66,30 @@ Rules
  %{eV%}:o <=> o %^WG: %> _ ;
 !!
 
+"Weaken pb when followed by morpheme on-set vowel"
+Cx:Cy <=> [Vow - o] _ %^WG:0 [ %> | %< ] [Vow | VowInit: | %{bmØ%}:];
+             o _ %^WG:0 [ %> | %< ] %{bmØ%}: ;
+     where Cx in (%{pbØ%})
+           Cy in (   b   ) matched ;
+
+"pb to 0"
+%{pbØ%}:0 <=> o _ %^WG:0 [ %> | %< ] [Vow | VowInit: ] ;
+
+
 "Weaken stem-final stop when followed by morpheme on-set vowel"
-Cx:Cy <=> _ %^WG:0 [ %> | %< ];
-     where Cx in (%{pb%} %{tr%} %{kg%})
-           Cy in (   b      r      g ) matched ;
+Cx:Cy <=> _ %^WG:0 [ %> | %< ] [Vow | VowInit: | %{bmØ%}:];
+     where Cx in (%{tr%} %{kg%})
+           Cy in (   r      g ) matched ;
 
 !! tek+N+Sg+Ill+PxSg1
 !!€ o%<te%{kg%}%^WG%>%{bmØ%}%{õo%}
 !!€ o%<teg0%>0õ
+
+"Strengthen when followed by voiceless "
+Cx:Cy <=> _ %^WG:0 [ %> | %< ] [s| Cns] ;!CHECKME 20230929
+          _ # ;
+     where Cx in (%{pbØ%} %{tr%} %{kg%})
+           Cy in (   p      t      k ) matched ;
 
 "%{eØ%}:0 loss following stem-final vowel"
  %{eØ%}:0 <=> Vow %^WG:0 %> _ ;
