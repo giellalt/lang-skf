@@ -3,11 +3,11 @@
 !! The Sakirabiá language nouns inflect in cases.
 
 LEXICON Cases
-+Nom:     PX-MARKING_OR_NOT   ;
-+Abl:%^WG%>%{eV%}ri    PX-MARKING_OR_NOT   ;
-+Com:%^WG%>%{eØ%}sẽp    PX-MARKING_OR_NOT   ;
-+Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING_OR_NOT   ;
-+Loc:%^WG%>%{eØ%}se    PX-MARKING_OR_NOT   ;
++Sg+Nom:     PX-MARKING_OR_NOT   ;
++Sg+Abl:%^WG%>%{eV%}ri    PX-MARKING_OR_NOT   ;
++Sg+Com:%^WG%>%{eØ%}sẽp    PX-MARKING_OR_NOT   ;
++Sg+Dat:%^WG%>%{bmØ%}%{õo%}    PX-MARKING_OR_NOT   ;
++Sg+Loc:%^WG%>%{eØ%}se    PX-MARKING_OR_NOT   ;! kaa{pb} WG >{eØ}se ==> kaabese
 +Coll+Nom:%^WG%>iat    PX-MARKING_OR_NOT   ;
 !#:0   Nouns   ;
 
