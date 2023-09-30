@@ -23,6 +23,7 @@ LEXICON Persons
 @R.PERS-NUM.PL2@+Pl2:@R.PERS-NUM.PL2@ K ;
 @R.PERS-NUM.PL3@+Pl3:@R.PERS-NUM.PL3@ K ;
 @R.PERS-NUM.PL3c@+Pl3c:@R.PERS-NUM.PL3c@ K ;
+@D.PERS-NUM@ K ;
 
 !#:0   Nouns   ;
 
