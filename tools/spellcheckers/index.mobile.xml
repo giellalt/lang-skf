@@ -2,7 +2,7 @@
 <hfstspeller dtdversion="1.0" hfstversion="3">
   <info>
     <locale>skf</locale>
-    <title>Giellatekno/Divvun/UiT fst-based speller for Sakirabiá</title>
+    <title>Sakirabiá</title>
     <description>This is an fst-based speller for Sakirabiá. It is based
     on the normative subset of the morphological analyser for Sakirabiá.
     The source code can be found at:
