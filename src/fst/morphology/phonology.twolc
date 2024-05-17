@@ -16,20 +16,20 @@ Alphabet
 
 !! Archiconsonants
 %{pbØ%}:p !
-%{pbØ%}:b
+!%{pbØ%}:b
 %{tr%}:t
-%{tr%}:r
+!%{tr%}:r
 %{kg%}:k
-%{kg%}:g
-%{bmØ%}:b
-%{bmØ%}:m
-%{bmØ%}:0
+!%{kg%}:g
+%{bmØ%}:b ! after oral vow
+!%{bmØ%}:m ! after nasal vow
+!%{bmØ%}:0 ! after cns
 %{õo%}:õ
-%{õo%}:o
+!%{õo%}:o
 
 %{eV%}:e
 %{eØ%}:e
-%{eØ%}:0
+!%{eØ%}:0
 
 ! triggers
 %^WG:0
@@ -51,8 +51,12 @@ Alphabet
 
 Sets
 
- Vow = a e i o u y ã ẽ ĩ õ ũ ; 
- Cns = b c d f g h j k l m n p q r s t v w x z ;
+ Vow     = a e i o u ã ẽ ĩ õ ũ 
+           %{õo%} %{eV%} %{eØ%} ;
+ OralVow = a e i o u ;
+ NasVow  = ã ẽ ĩ õ ũ ;
+ Cns     = b c d f g h j k l m n p q r s t v w x z '
+           %{pb%} %{tr%} %{kg%} %{bmØ%} ;
  VowInit = %{eV%} %{eØ%} ;
 
 Rules
@@ -96,6 +100,13 @@ Cx:Cy <=> _ %^WG:0 [ %> | %< ] [s| Cns] ;!CHECKME 20230929
 !! 
 
 
+"%{bmØ%} is m after nasal"
+%{bmØ%}:m <=> NasVow (%^WG:) %> _ ;
+
+"%{bmØ%} is 0 after consonant"
+%{bmØ%}:0 <=> Cns: (%^WG:) %> _ ;
+
 !!TESTS
 !echo 'o < o p o ^WG:0 > %{eV%}:o r i' | hfst-pair-test src/phonology/skf-phon.compose.hfst
 !echo 'opo+N+Sg+Abl+PxSg1' | hfst-lookup src/morphology/lexicon.hfst
+
