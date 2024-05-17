@@ -26,7 +26,7 @@ morf_codes="+V+Ind+Prs \
             +V+Ind+Prs+Sg3c \
             +V+Ind+Prs+Pl1 \
             +V+Ind+Prs+Pl2 \
-            +V+Ind+Prs+pl3c \
+            +V+Ind+Prs+Pl3c \
             +V+Ind+Pst+Imprf+Sg1 \
             +V+Ind+Pst+Imprf+Rep+Sg1"
 
@@ -34,7 +34,7 @@ morf_codes="+V+Ind+Prs \
 source_file=src/fst/morphology/stems/verbs.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(flagK)"
+exception_lexicons="(flagK|#)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/fst/generator-gt-norm

@@ -31,7 +31,7 @@ morf_codes="+N+Sg+Nom \
 source_file=src/fst/morphology/stems/nouns.lexc
 
 # Lexicons that should NOT be used to extract lemmas (egrep expression):
-exception_lexicons="(flagK)"
+exception_lexicons="(ProperNounCases)"
 
 # FST used for generation, MINUS suffix:
 generator_file=src/fst/generator-gt-norm
