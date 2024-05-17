@@ -393,7 +393,7 @@ they follow the head of the NP and take the oblique markers we call case (perhap
 # src-fst-morphology-stems-nouns.lexc.md 
 
 Nouns
-Nouns in the Sakirabiá language are things.
+Nouns in the Sakirabiá language denote things and concepts.
 
 * * *
 
@@ -420,6 +420,17 @@ Pronouns in the Sakirabiá language are references to things.
 * * *
 
 <small>This (part of) documentation was generated from [src/fst/morphology/stems/pronouns.lexc](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/pronouns.lexc)</small>
+
+---
+
+# src-fst-morphology-stems-propernouns.lexc.md 
+
+Propernouns
+This is the file for Sakirabiá proper nouns
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/stems/propernouns.lexc](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/propernouns.lexc)</small>
 
 ---
 

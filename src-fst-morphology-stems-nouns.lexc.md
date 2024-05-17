@@ -1,5 +1,5 @@
 Nouns
-Nouns in the Sakirabiá language are things.
+Nouns in the Sakirabiá language denote things and concepts.
 
 * * *
 

@@ -18,6 +18,7 @@
                 * [nouns.lexc](src-fst-morphology-stems-nouns.lexc.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/nouns.lexc))
                 * [numerals.lexc](src-fst-morphology-stems-numerals.lexc.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/numerals.lexc))
                 * [pronouns.lexc](src-fst-morphology-stems-pronouns.lexc.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/pronouns.lexc))
+                * [propernouns.lexc](src-fst-morphology-stems-propernouns.lexc.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/propernouns.lexc))
                 * [verbs.lexc](src-fst-morphology-stems-verbs.lexc.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/stems/verbs.lexc))
         * `phonetics/`
             * [txt2ipa.xfscript](src-fst-phonetics-txt2ipa.xfscript.html) ([src](https://github.com/giellalt/lang-skf/blob/main/src/fst/phonetics/txt2ipa.xfscript))
