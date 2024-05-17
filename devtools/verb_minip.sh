@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # script to generate paradigms for generating word forms
-# command, when you are in fit:
+# command, when you are in skf:
 # sh devtools/verb_minip.sh 2SYLL_OD | less
 # sh devtools/verb_minip.sh kihlođ 
 
@@ -21,8 +21,8 @@ for lemma in $(cat $L_FILE);
 do
  for form in $(cat $P_FILE);
  do
-#   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-fit/src/generator-gt-norm.xfst # xfst
-    echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-fit/src/fst/generator-gt-norm.hfstol # hfst
+#   echo "${lemma}${form}" | $LOOKUP $GTLANGS/lang-skf/src/generator-gt-norm.xfst # xfst
+    echo "${lemma}${form}" | $HLOOKUP $GTLANGS/lang-skf/src/fst/generator-gt-norm.hfstol # hfst
  done
  rm -f $L_FILE
 done
