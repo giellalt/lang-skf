@@ -230,6 +230,7 @@ LEXICON Root
 !! The word forms in the Sakurabiat language start from the lexeme roots of basic
 !! word classes, or optionally from prefixes:
    Nouns       ;
+   Propernouns ;
    Verbs       ;
    Adjectives  ;
    Adverbs     ;
