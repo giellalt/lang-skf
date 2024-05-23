@@ -10,18 +10,18 @@ pa+V+Aux+Fut:pa # ;
 kot+V+Aux+ImFut:kot # ;
 kaap+V+Aux+Quo:kaap # ;
 eba+V+Aux+Evid:eba # ;
-kop+V+Aux:kop # "aux.mov" ;
-to+V:to TAM_ "aux.lie" ;
+kop+V+Aux:kop # "aux.mov/" ;
+to+V:to TAM_ "aux.lie/" ;
 
 
 ʼat+v1+V:ʼa%{tr%} TAM_ "get/" ;
 ʼat+v2+V:a%{tr%} TAM_ "get/" ;
-erek+V:ere%{kg%} TAM_ "speak" ;
-et+V:e%{tr%} TAM_ "sleep"   ;
+erek+V:ere%{kg%} TAM_ "speak/" ;
+et+V:e%{tr%} TAM_ "sleep/"   ;
 iʼat+V:iʼa%{tr%} TAM_ "catch something/pegar algo" ;
 ka+V:ka TAM_ "move/" ;
-kerep+V:kere%{pbØ%} TAM_ "enter/" ;
-ko+V:ko TAM_ "ingest: eat, drink, smoke, copulate" ;
+kerep+V:kere%{pb%} TAM_ "enter/" ;
+ko+V:ko TAM_ "ingest: eat, drink, smoke, copulate/" ;
 kõjẽ+V:kõjẽ TAM_ "sit/" ;
 kwakso+V:kwakso TAM_ "hear/" ;
 ma+V:ma TAM_ "make/" ;
@@ -34,8 +34,9 @@ piora+V:piora TAM_ "dig/" ;
 pɨbot+V:pɨbo%{tr%} TAM_ "arrive/chegar" ;
 porẽsopek+V:porẽsope%{kg%} TAM_ "ask/perguntar" ;
 set+V:se%{tr%} TAM_ "" ;
-so+V:so TAM_ "see" ;
+so+V:so TAM_ "see/" ;
 toorekwa+V:toorekwa TAM_ "laugh/" ;
+ngwẽrep+V:ngwẽre%{pb%} TAM_ "end/acabar" ;!is this a verb?
 
 
 ! vim: set ft=xfst-lexc:
