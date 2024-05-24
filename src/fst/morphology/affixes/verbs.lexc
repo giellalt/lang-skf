@@ -5,7 +5,7 @@
 LEXICON TAM_
 !perhaps add Der/.. here
 !+Nmlz+Vblz:%>pit%>na Ask what kind of nmlz and vblz these are
-!+Nmlz:%>a%{pb%}
+!+Nmlz:%>a%{pbØ%}
 
 +Ind+Pst:%^WG%>at Persons ;
 +Ind+Pst+Imprf:%^WG%>a Persons ;! Thematic Vowel

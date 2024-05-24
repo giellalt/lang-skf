@@ -8,21 +8,21 @@ adjective    Comparisons   ;!CHECKME: is there comparison? Is there possession
 ʹɨme+A:ʹɨme  Cases "dark/" ;
 aso+A:aso Cases "big/" ;
 ebõ+A:ebõ Cases "same/mesmo" ;
-ikũup+A:ikũu%{pb%}  Cases "sweet/doce" ;
+ikũup+A:ikũu%{pbØ%}  Cases "sweet/doce" ;
 ipaak:ipaa%{kg%} Cases "white/branco" ;
 ipekõy+A:ipekõy Cases "sour/azedo" ;
 ipoot+A:ipoo%{tr%}  Cases "old/velho" ;
 kwirik+A:kwiri%{kg%} Cases "" ;
 perek+A:pere%{kg%} Cases "long/comprida" ;
 puuk+A:puu%{kg%} Cases "black/preto" ;
-sakop+A:sako%{pb%} Cases "hot/quente" ;
+sakop+A:sako%{pbØ%} Cases "hot/quente" ;
 
 
 
 ebõ+Det:ebõ Cases "same/mesmo" ;
 ke+Det:ke Cases "(dem)" ;
 kaat+Det:kaa%{tr%}  Cases "(dem)" ;
-kaap+Det:kaa%{pb%}  Cases "(dem)" ;
+kaap+Det:kaa%{pbØ%}  Cases "(dem)" ;
 jẽ+Det:jẽ  Cases "(dem.sitting)" ;
 ta+Det:ta Cases "(dem.standing)" ;
 
