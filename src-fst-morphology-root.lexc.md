@@ -25,6 +25,10 @@ Verb moods are:
 Verb personal forms are:
 Other verb forms are
 
+* **+NomAct** Actor Noun From Verb - Nomen Agentis, +N+NomAg
+* **+NomAg** Actor Noun From Verb - Nomen Agentis, +N+NomAg
+* **+NomIns** Instrument Noun From Verb - , +N+NomIns
+
 * +Symbol = independent symbols in the text stream, like £, €, ©
 Special symbols are classified with:
 The verbs are syntactically split according to transitivity:
