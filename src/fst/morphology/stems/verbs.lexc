@@ -24,12 +24,12 @@ kerep+V:kere%{pbØ%} TAM_ "enter/" ;
 ko+V:ko TAM_ "ingest: eat, drink, smoke, copulate/" ;
 kõjẽ+V:kõjẽ TAM_ "sit/" ;
 kwakso+V:kwakso TAM_ "hear/" ;
-ma+V:ma TAM_ "make/" ;
-maj+V:maj TAM_ "tell/" ;
+ma+V:ma TAM_ "make/fazer" ;
+maj+V:maj TAM_ "tell/contar" ;
 ot+V:o%{tr%} TAM_ "leave/" ;
 õp+V:õ%{pbØ%} TAM_ "give/dar" ;
 pek+V:pe%{kg%} TAM_ "call/chamar" ;
-pia+V:pia TAM_ "wait/" ;
+pia+V:pia TAM_ "wait/esperar" ;
 piora+V:piora TAM_ "dig/" ;
 pɨbot+V:pɨbo%{tr%} TAM_ "arrive/chegar" ;
 porẽsopek+V:porẽsope%{kg%} TAM_ "ask/perguntar" ;
@@ -113,6 +113,7 @@ perop+V+IV:pero%{pbØ%} TAM_ "" ;
 poka+V:poka TAM_ "" ;
 moet+V+TV:mo«e%{tr%} TAM_ "caus to sleep/"   ;
 esepubot+V:esepubo%{tr%} TAM_ ;
+motkwa+V:motkwa TAM_ ;
 
 
 ! vim: set ft=xfst-lexc:
