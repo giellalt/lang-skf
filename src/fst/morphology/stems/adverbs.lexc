@@ -9,16 +9,16 @@ arẽp+Adv:arẽp # "then" ;
 jãõbõ+Adv+All:jãõbõ # "thither, to there/" ;
 ebõ+Adv:ebõ # "really/realmente" ;
 kẽrã+Adv:kẽrã # "(nonassertive)" ;
-ma+Adv+Temp:ma # "when/" ;
-neara+Adv:neara # "again/" ;
+ma+Adv+Temp:ma # "when/quando" ;
+neara+Adv:neara # "again/novamente" ;
 õẽp+Adv:õẽp # "already/já" ;
-pɨ+Adv:pɨ # "lying" ;
+pu+Adv:pu # "lying" ;
 poget+Adv:poget # "standing/" ;
 poret+Adv+Temp:poret # "now/agora" ;
 te+Adv+Foc:te # "(focus marker)" ;
 tẽet+Adv:tẽet # "only/" ;
 
-atɨ+Interj:atɨ # "" ;
-tɨɨ+Interj:tɨɨ # "" ;
+atu+Interj:atu # "" ;
+tuu+Interj:tuu # "" ;
 
 ! vim: set ft=xfst-lexc:
