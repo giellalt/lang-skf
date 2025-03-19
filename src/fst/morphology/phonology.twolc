@@ -13,8 +13,11 @@ Alphabet
  Á É Ó Ú Í À È Ò Ù Ì Ä Ë Ö Ü Ï Â Ê Ô Û Î Ý Ç Ɨ
  Kʷ
 
+ ː ! IPA vowel length (U+02D0) Modifier letter triangular colon
  ' ! the apostrophe is a glotal stop marker
  ʼ ! the Modifier letter apostrophe (U+02BC) is a glotal stop marker
+ ˈ ! Modifier letter vertical line (U+02C8) is IPA primary stress marker
+ ˌ ! Modifier letter low vertical line (U+02CC) is IPA secondary stress marker
 
 !! Archiconsonants
 %{pbØ%}:p !
