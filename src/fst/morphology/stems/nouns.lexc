@@ -254,7 +254,7 @@ kãrãyã+N:kãrãyã Cases ;
 kãyãpe+N:kãyãpe Cases ;
 kõrĩpo+N:kõrĩpo Cases ;
 kõta+N:kõta Cases ;
-kõtkõrã+N:kõtkõrã Cases ;
+kõtkõrã+N:kõtkõrã Cases "cicada";
 kẽp+N:kẽ%{pbØ%} Cases ;
 mẽpirẽpit+N:mẽpirẽpi%{tr%} Cases ;
 mẽt+N:mẽ%{tr%} Cases ;
@@ -296,7 +296,6 @@ pawrape+N:pawrape Cases ;
 paykũt+N:paykũ%{tr%} Cases ;
 paype+N:paype Cases ;
 peʼĩ+N:peʼĩ Cases ;
-pe+N:pe Cases ;
 pe+N:pe Cases ;
 peero+N:peero Cases ;
 peeroroi+N:peeroroi Cases ;
@@ -350,7 +349,6 @@ sep+N:se%{pbØ%} Cases ;
 serepe+N:serepe Cases ;
 sigaap+N:sigaa%{pbØ%} Cases ;
 sigope+N:sigope Cases ;
-sik+N:si%{kg%} Cases ;
 sik+N:si%{kg%} Cases ;
 sikororo+N:sikororo Cases ;
 sikãrãpe+N:sikãrãpe Cases ;
@@ -455,6 +453,7 @@ yõpera+N:yõpera Cases ;
 ẽsikop+N:ẽsiko%{pbØ%} Cases ;
 
 sõisa+N:sõisa Cases ;
+yẽt+N:yẽ%{tr%} Cases ;
 
 
 ! vim: set ft=xfst-lexc:
