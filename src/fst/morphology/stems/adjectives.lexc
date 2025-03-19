@@ -5,7 +5,7 @@
 
 LEXICON Adjectives
 adjective    Comparisons   ;!CHECKME: is there comparison? Is there possession
-ʹɨme+A:ʹɨme  Cases "dark/" ;
+ʼume+A:ʼume  Cases "dark/" ;
 aso+A:aso Cases "big/" ;
 ebõ+A:ebõ Cases "same/mesmo" ;
 ikũup+A:ikũu%{pbØ%}  Cases "sweet/doce" ;
@@ -17,6 +17,20 @@ perek+A:pere%{kg%} Cases "long/comprida" ;
 puuk+A:puu%{kg%} Cases "black/preto" ;
 sakop+A:sako%{pbØ%} Cases "hot/quente" ;
 
+! Are these adjectives
+asi+N:asi Cases ;
+asu+N:asu Cases ;
+iit+N:ii%{tr%} Cases ;
+kẽrẽ+N:kẽrẽ Cases ;
+kũũp+N:kũũ%{pbØ%} Cases ;
+obat+N:oba%{tr%} Cases ;
+pitik+N:piti%{kg%} Cases ;
+pẽt+N:pẽ%{tr%} Cases ;
+samẽ+N:samẽ Cases ;
+saro+N:saro Cases ;
+sẽkõrẽ+N:sẽkõrẽ Cases ;
+toroot+N:toroo%{tr%} Cases ;
+yarap+N:yara%{pbØ%} Cases ;
 
 
 ebõ+Det:ebõ Cases "same/mesmo" ;
