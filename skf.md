@@ -190,10 +190,21 @@ The Sakirabiá language adjectives compare.
 
 ---
 
+# src-fst-morphology-affixes-adverbs.lexc.md 
+
+Adjective inflection
+The Sakurabiat language adjectives compare.
+
+* * *
+
+<small>This (part of) documentation was generated from [src/fst/morphology/affixes/adverbs.lexc](https://github.com/giellalt/lang-skf/blob/main/src/fst/morphology/affixes/adverbs.lexc)</small>
+
+---
+
 # src-fst-morphology-affixes-nouns.lexc.md 
 
 Noun inflection
-The Sakirabiá language nouns inflect in cases.
+The Sakurabiat language nouns inflect in cases.
 
 * * *
 
@@ -238,7 +249,7 @@ nouns, but with a colon (':') as separator.
 # src-fst-morphology-affixes-verbs.lexc.md 
 
 Verb inflection
-The Sakirabiá language verbs inflect in person and tense.
+The Sakurabiat language verbs inflect in person and tense.
 
 * * *
 
@@ -253,6 +264,9 @@ The Sakirabiá morphophonological/twolc rules file !
 =================================== !
 
 Archiconsonants
+
+* *e<aso>{bØ}õ*
+* *e<aso>bõ*
 
 tek+N+Sg+Ill+PxSg1
 * *o%<te%{kg%}%^WG%>%{bmØ%}%{õo%}*
@@ -288,8 +302,8 @@ The possession is marked as such:
 
 The comparative forms are:
 Numerals are classified under:
-Verb moods are:
-
+Verb tenses are:
+Verb moods are: 
 Verb personal forms are:
 Other verb forms are
 

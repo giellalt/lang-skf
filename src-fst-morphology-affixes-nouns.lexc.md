@@ -1,5 +1,5 @@
 Noun inflection
-The Sakirabiá language nouns inflect in cases.
+The Sakurabiat language nouns inflect in cases.
 
 * * *
 

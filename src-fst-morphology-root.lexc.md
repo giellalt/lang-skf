@@ -20,8 +20,8 @@ The possession is marked as such:
 
 The comparative forms are:
 Numerals are classified under:
-Verb moods are:
-
+Verb tenses are:
+Verb moods are: 
 Verb personal forms are:
 Other verb forms are
 
