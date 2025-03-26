@@ -1,0 +1,15 @@
+!! Adjective inflection
+!  --------------------
+!! The Sakurabiat language adjectives compare.
+
+LEXICON ADV_
+# ;
+LEXICON ADV_TEMP
++Temp: # ;
+
+LEXICON ADV_EPIST
+!Galucio 2001: 68
++Epist: # ;
+
+! vim: set ft=xfst-lexc:
+
