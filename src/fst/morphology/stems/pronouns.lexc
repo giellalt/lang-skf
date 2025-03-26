@@ -3,14 +3,28 @@
 !! Pronouns in the Sakirabiá language are references to things.
 
 LEXICON Pronouns
-õt+Pron+Prs+Sg1:õ%{tr%}  Cases "I/eu" ;
-ẽt+Pron+Prs+Sg2:ẽ%{tr%}  Cases "you(sg)/" ;
-te+Pron+Prs+Sg3:te    Cases   ;
-sete+Pron+Prs+Sg3c:sete    Cases   ;
-õt+Pron+Prs+Pl1Incl:kise    Cases   ;
-õt+Pron+Prs+Pl13:ose    Cases   ;
-ẽt+Pron+Prs+Pl2:eyat    Cases   ;
-te+Pron+Prs+Pl3:teyat    Cases   ;
-sete+Pron+Prs+Pl3c:seteyat    Cases   ;
+õt+Pron+Pers+Sg1:õ%{tr%}  Cases "I/eu" ;
+ẽt+Pron+Pers+Sg2:ẽ%{tr%}  Cases "you(sg)/" ;
+te+Pron+Pers+Sg3:te    Cases   ;
+sete+Pron+Pers+Sg3c:sete    Cases   ;
+õt+Pron+Pers+Pl1Incl:kise    Cases   ;
+õt+Pron+Pers+Pl13:ose    Cases   ;
+ẽt+Pron+Pers+Pl2:eya%{tr%}    Cases   ;
+te+Pron+Pers+Pl3:teya%{tr%}    Cases   ;
+sete+Pron+Pers+Pl3c:seteya%{tr%}    Cases   ;
+
+! what is a reflexive pronoun?
+!Galucio 2001: 40
+!jmr:2025-03-26:Do these words ever take other case forms?
+õrẽp+Pron+Refl+Sg1+Nom:õrẽp  # "I/eu" ;
+ẽrẽp+Pron+Refl+Sg2+Nom:ẽrẽp  # "you(sg)/" ;
+teẽp+Pron+Refl+Sg3+Nom:teẽp    #   ;
+seteẽp+Pron+Refl+Sg3c+Nom:seteẽp    #   ;
+õrẽp+Pron+Refl+Pl1Incl+Nom:kiseẽp    #   ;
+õrẽp+Pron+Refl+Pl13+Nom:oseẽp    #   ;
+ẽrẽp+Pron+Refl+Pl2+Nom:eyarẽp    #   ;
+teẽp+Pron+Refl+Pl3+Nom:teyarẽp    #   ;
+seteẽp+Pron+Refl+Pl3c+Nom:seteyarẽp    #   ;
+
 
 ! vim: set ft=xfst-lexc:
