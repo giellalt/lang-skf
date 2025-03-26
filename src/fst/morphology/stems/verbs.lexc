@@ -12,10 +12,11 @@ kaap+V+Aux+Quo:kaap # ;
 eba+V+Aux+Evid:eba # ;
 kop+V+Aux:kop # "aux.mov/" ;
 to+V:to TAM_ "aux.lie/" ;
+top+V:to%{pbØ%} TAM_ "aux.lie/" ;
 
 
 ʼat+v1+V:ʼa%{tr%} TAM_ "get/" ;
-ʼat+v2+V:a%{tr%} TAM_ "get/" ;
+ʼat+v2+V:a%{tr%} TAM_err_no_glot "get/" ;!FIXME2025-03_24
 erek+V:ere%{kg%} TAM_ "speak/" ;
 et+V:e%{tr%} TAM_ "sleep/"   ;
 iʼat+V:iʼa%{tr%} TAM_ "catch something/pegar algo" ;
@@ -105,7 +106,6 @@ koyperiat+V:koyperia%{tr%} TAM_ "" ;
 koypet+V:koype%{tr%} TAM_ "" ;
 sepoot+V:sepoo%{tr%} TAM_ "" ;
 mia+V:mia TAM_ "" ;
-at+V:a%{tr%} TAM_ "get" ;
 esaroka+V:esaroka TAM_ "get yellow" ;
 oetobeka+V:oetobeka TAM_ "lose" ;
 peropka+V+TV:peropka TAM_ "" ;
