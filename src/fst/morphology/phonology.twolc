@@ -22,6 +22,8 @@ Alphabet
 !! Archiconsonants
 %{pbØ%}:p !
 !%{pbØ%}:b
+%{bØ%}:b
+%{bØ%}:0
 %{tr%}:t
 !%{tr%}:r
 %{kg%}:k
@@ -61,7 +63,7 @@ Sets
  OralVow = a e i o u ;
  NasVow  = ã ẽ ĩ õ ũ ;
  Cns     = b c d f g h j k l m n p q r s t v w x z '
-           %{pbØ%} %{tr%} %{kg%} %{bmØ%} ;
+           %{bØ%} %{pbØ%} %{tr%} %{kg%} %{bmØ%} ;
  VowInit = %{eV%} %{eØ%} ;
 
 Rules
@@ -83,6 +85,15 @@ Cx:Cy <=> [Vow - o] _ %^WG:0 [ %> | %< ] [Vow | VowInit: | %{bmØ%}:];
 
 "pb to 0"
 %{pbØ%}:0 <=> o _ %^WG:0 [ %> | %< ] [Vow | VowInit: ] ;
+
+"Weaken b0 to 0 after stem consonant"
+%{bØ%}:0 <=> :Cns %> _ õ: ;
+
+"Retain b0 as b after stem vowel"
+%{bØ%}:b <=> :Vow %> _ õ: ;
+! aso+V+Imprt+Sg2: **bathe**
+!!€ e<aso>{bØ}õ
+!!€ e<aso>bõ
 
 
 "Weaken stem-final stop when followed by morpheme on-set vowel"

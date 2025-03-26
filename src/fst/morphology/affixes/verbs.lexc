@@ -1,6 +1,8 @@
 !! Verb inflection
 !  ---------------
-!! The Sakirabiá language verbs inflect in person and tense.
+!! The Sakurabiat language verbs inflect in person and tense.
+LEXICON TAM_err_no_glot
++Err/Orth-no-glot: TAM_ ;
 
 LEXICON TAM_
 !perhaps add Der/.. here
@@ -10,10 +12,15 @@ LEXICON TAM_
 !+Neg:%>a%{pbØ%}
 !Theme vowel is always a regardless of the stem or suffix 2025-03-24
 
-+Ind+Pst:%^WG%>at Persons ;
++Ind+Pst:%^WG%>a%{tr%} V_NEGATION ;
 +Ind+Pst+Imprf:%^WG%>a Persons ;! Thematic Vowel
 +Ind+Pst+Imprf+Rep:%^WG%>a%>ra Persons ;! Thematic Vowel +Rep
-+Ind+Prs: Persons ;
++Ind+Prs: V_NEGATION ;
++Imprt+Neg:%>%{bØ%}õ Persons ;
+
+LEXICON V_NEGATION
++Neg:%>a%{pbØ%} Persons ;
+ Persons ;
 
 LEXICON Persons
 @R.PERS-NUM.SG1@+Sg1:@R.PERS-NUM.SG1@ K ;
