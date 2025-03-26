@@ -46,6 +46,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 
 !! The Usage extents are marked using following tags:
  +Err/Orth   
+ +Err/Orth-no-glot   
  +Use/-Spell 
 
 !! The nominals are inflected in the following Case and Number
@@ -77,13 +78,13 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! Numerals are classified under:
  +Attr +Card
  +Ord 
-!! Verb moods are:
+!! Verb tenses are:
  +Ind
  +Prs
  +Pst
  +Fut	! future
  +ImFut ! immediate future
- 
+!! Verb moods are: 
  +Pot +Cond +Imprt
 !! Verb personal forms are:
  +Sg1 +Sg2 +Sg3 +Sg3c
@@ -165,6 +166,7 @@ Multichar_Symbols  !!≈ # Definitions for @CODE@
 !! symbols in the lexicon files:
 !! Archiconsonants
 %{pbØ%}
+%{bØ%}
 %{tr%}
 %{kg%}
 %{bmØ%}
