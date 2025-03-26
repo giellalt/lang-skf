@@ -7,6 +7,8 @@ LEXICON TAM_
 !+Nmlz+Vblz:%>pit%>na Ask what kind of nmlz and vblz these are
 +Der+A+PrcPrf:%>pi%{tr%} Cases ;
 +Der+Der/NomIns:%>a%{pbØ%} Cases ;!check me2025-03-19
+!+Neg:%>a%{pbØ%}
+!Theme vowel is always a regardless of the stem or suffix 2025-03-24
 
 +Ind+Pst:%^WG%>at Persons ;
 +Ind+Pst+Imprf:%^WG%>a Persons ;! Thematic Vowel
