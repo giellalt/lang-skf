@@ -5,6 +5,7 @@
 [![License](https://img.shields.io/github/license/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-skf?label=CI)](https://builds.giellalt.org/pipelines/lang-skf/builds/latest)
+[![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/__GLOTTOLOG_ID__)
 
 This page documents the work on the **Sakirabiá language model**. it contains some 100 noun and word
 stems and the basic morphology.
