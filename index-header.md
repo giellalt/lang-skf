@@ -1,11 +1,19 @@
 # Sakirabiá documentation
 
+<div class="twocolumn map" markdown="1">
+
 [![Maturity](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-skf%2Fgh-pages%2Fmaturity.json)](https://giellalt.github.io/MaturityClassification.html)
 ![Lemma count](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fgiellalt%2Flang-skf%2Fgh-pages%2Flemmacount.json)
 [![License](https://img.shields.io/github/license/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/blob/main/LICENSE)
 [![Issues](https://img.shields.io/github/issues/giellalt/lang-skf)](https://github.com/giellalt/lang-skf/issues)
 [![Build Status](https://builds.giellalt.org/api/badge/lang-skf?label=CI)](https://builds.giellalt.org/pipelines/lang-skf/builds/latest)
 [![Glottolog](https://img.shields.io/badge/Glottolog-green)](https://glottolog.org/resource/languoid/id/saki1248)
+
+{% include_relative language-map.md %}
+
+Center location data taken from [Glottolog](https://glottolog.org/). Area extent is local data. Both can be adjusted if wrong - file a pull request!
+
+</div>
 
 This page documents the work on the **Sakirabiá language model**. it contains some 100 noun and word
 stems and the basic morphology.
